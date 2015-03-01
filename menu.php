@@ -1,18 +1,24 @@
 <div class="menu <?php echo $gdzie == 'wstep' ? 'bold' : ''?> ">
-    <a href="?gdzie=wstep">Wstępniak</a>
+    <a href="index.php?gdzie=wstep">Wstępniak</a>
 </div>
-<div class="menu <?php echo $gdzie == 'regulamin' ? 'bold' : ''?> ">
-    <a href="?gdzie=regulamin">Regulamin 3 ed.</a>
+<div class="menu <?php echo $gdzie == 'wyniki' ? 'bold' : ''?> ">
+    <a href="index.php?gdzie=wyniki">Wyniki</a>
 </div>
-<div class="menu <?php echo $gdzie == 'edycje' ? 'bold' : ''?> ">
-    <a href="?gdzie=edycje">Edycje konkursu</a>
+<div class="menu <?php echo $gdzie == 'regulamin' ? 'bold' : ''?> " style="width: 140px;">
+    <a href="index.php?gdzie=regulamin">Regulamin 5 ed.</a>
+</div>
+<div class="menu <?php echo $gdzie == 'edycje' ? 'bold' : ''?> " style="width: 130px;">
+    <a href="index.php?gdzie=edycje">Edycje konkursu</a>
 </div>
 <div class="menu <?php echo $gdzie == 'galeria' ? 'bold' : ''?> ">
-    <a href="?gdzie=galeria">Galeria</a>
+    <a href="index.php?gdzie=galeria">Galeria</a>
 </div>
 <div class="menu <?php echo $gdzie == 'media' ? 'bold' : ''?> ">
-    <a href="?gdzie=media">Materiały</a>
+    <a href="index.php?gdzie=media">Materiały</a>
 </div>
-<div class="menu <?php echo $gdzie == 'kupno' ? 'bold' : ''?> " style="border: none">
-    <a href="?gdzie=kupno">Gdzie kupić</a>
+<div class="menu <?php echo $gdzie == 'kupno' ? 'bold' : ''?> ">
+    <a href="index.php?gdzie=kupno">Gdzie kupić</a>
+</div>
+<div class="menu <?php echo $gdzie == 'zamowienia' ? 'bold' : ''?> " style="border: none">
+    <a href="zamowienia.php">Zamówienie</a>
 </div>

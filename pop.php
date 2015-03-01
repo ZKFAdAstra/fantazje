@@ -98,3 +98,90 @@
 <p>
     Patronat medialny: Gazeta Wyborcza
 </p>
+
+
+<img style="margin-bottom: 200px; width: 200px;" class="okladka" src="img/antologia_3.jpg" title="tom 3" alt="tom 3, okładka" />
+<h3 class="tom">Tom 3</h3>
+<p>
+    W roku 2013 Odbyła się trzecia edycja konkursu, której efektem był kolejny tom antologii. 
+	W jury zasiedli: Igor Myszkiewicz, Waldemar Gruszczyński, Maciej Dobrowolski i Zbigniew Kulczycki. 
+	Redakcji tomu dokonał Maciej Dobrowolski, korekty Arlena A. Łobodzińska, składu Mamert Janion, 
+	a ilustracje wykonał Igor Myszkiewicz. 
+</p>
+<p>
+    Zawartość tomu:
+</p>
+<ul>
+    <li>Michał Rybiński „Dzieci i psy”</li>
+    <li>Joanna Pawłusiów „Drugi”</li>
+    <li>Krzysztof Filipowicz „Duszek historii”</li>
+    <li>Dariusz M. Gruszecki „Lampa”</li>
+    <li>Andriej Kotin „Kołyska Judasza”</li>
+    <li>Marek Starosta „Diabeł na wirażu”</li>
+    <li>Alfred Siatecki „Wino musujące”</li>
+    <li>Krzysztof Nowecki „Wahadło Igora”</li>
+    <li>Filip Kopij „Leszy”</li>
+    <li>Anna M. Rosner „Kawalerka z widokiem do wynajęcia”</li>
+	<li>Waldemar Konieczny „Wampiry z Grünbergu”</li>
+	<li>Czesław Markiewicz „Rynek (Do krwi ostatecznej)”</li>
+	<li>Char Morana „Na głębokość skóry”</li>
+	<li>Zuzanna Nowicka „Pod maską”</li>
+	<li>Maciej Kaźmierczak „Dar od Boga”</li>
+</ul>
+<p>
+    Poza konkursem (teksty członków ZKF Ad Astra):
+</p>
+<ul>
+    <li>Zbigniew Kulczycki „Ulica Kraszewskiego”</li>
+    <li>Igor Myszkiewicz „Pamiętaj nas”</li>
+</ul>
+<p>
+    Nagrodę Grand Prix zdobyło opowiadanie Michała Rybińskiego „Dzieci i Psy”. <?php //<a href="pliki/Michal-Organisciak-Czarna.pdf" target="_new">(przeczytaj opowiadanie)</a>. ?>
+</p>
+<p>
+    Książkę wydano przy współpracy Fabryki Reklamy IBI i Galerii Twórców Galera.
+</p>
+<p>
+    Zrealizowano przy pomocy finansowej Miasta Zielona Góra
+</p>
+
+
+<img style="margin-bottom: 185px; width: 200px;" class="okladka" src="img/antologia_4.jpg" title="tom 4" alt="tom 4, okładka" />
+<h3 class="tom">Tom 4</h3>
+<p>
+   W roku 2014 odbyła się czwarta edycja konkursu, której efektem był kolejny tom antologii. W jury zasiedli: Igor Myszkiewicz, Waldemar Gruszczyński, Maciej Dobrowolski i Zbigniew Kulczycki. Redakcji tomu dokonał Maciej Dobrowolski, korekty Arlena A. Łobodzińska, składu Mamert Janion, a ilustracje wykonał Igor Myszkiewicz.
+</p>
+<p>
+    Zawartość tomu:
+</p>
+<ul>
+	<li>Dagmara Adwentowska „Trójnóg Diabła”</li>
+	<li>Anna Konstanty „Dzień kobiet”</li>
+	<li>Aleksander Daukszewicz „Rechot”</li>
+	<li>Iwona Przybylska „Sed libera nos a malo”</li>
+	<li>Marek Palutkiewicz „Przeskok”</li>
+	<li>Michał Organiściak „Biały rycerz”</li>
+	<li>Krzysztof Nowecki „Stalowy Żółw”</li>
+	<li>Filip Kopij „Wydarzenia”</li>
+	<li>Żaneta Siemsia „Zaręczyny”</li>
+	<li>Alfred Siatecki „Atak serca”</li>
+	<li>Tadeusz Kajak „Święto Złotego Wina”</li>
+	<li>Kamila Modrzyńska „Dziwka generała”</li>
+</ul>
+<p>
+    Poza konkursem:
+</p>
+<ul>
+    <li>Igor Myszkiewicz „Pionier”</li>
+	<li>Jacek Katos „Opowieść Zoe”</li>
+	<li>Zbigniew Kulczycki „Dziewczyna ze skrzyżowania”</li>
+</ul>
+<p>
+    Nagrodę Grand Prix zdobyło opowiadanie Dagmary Adwentowskiej „Dzień kobiet”, opowiadania „Dzień kobiet” Anny Konstanty i „Rechot” Aleksandra Daukszewicza uhonorowane zostały Nagrodami Kapituły. <?php //<a href="pliki/Michal-Organisciak-Czarna.pdf" target="_new">(przeczytaj opowiadanie)</a>. ?>
+</p>
+<p>
+    Książkę wydano przy współpracy Fabryki Reklamy IBI i Galerii Twórców Galera.
+</p>
+<p>
+    Zrealizowano przy pomocy finansowej Miasta Zielona Góra
+</p>

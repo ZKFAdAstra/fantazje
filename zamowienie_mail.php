@@ -14,6 +14,12 @@ include_once('include/functions.php');
 require_once('sql/site.config.php');
 require_once ( 'include/zamowienie.class.php' );
 
+	if (!empty($_POST) && 'czwarta' != $_POST['zamowienie']['test']) {
+		setVar(10, 'msg');
+		setVar($_POST['zamowienie'], 'zamowienie');
+		header('Location: zamowienia.php');
+		exit;
+	}
 		$objRegs = new zamowienie($_objDataBase);
 		
 		$temat="Nowe zamówienie fantazji";
@@ -23,13 +29,14 @@ require_once ( 'include/zamowienie.class.php' );
 		$tresc .= "  telefon: " . (isset($_POST['zamowienie']['telefon']) ? $_POST['zamowienie']['telefon'] : '-') . "\n";
 		$tresc .= "  e-mail: " . $_POST['zamowienie']['email'] . "\n";
 		$tresc .= "  Fantazje 2: " . $_POST['zamowienie']['fz2'] . "\n";
-		$tresc .= "  Fantazje 3: " . $_POST['zamowienie']['fz3'] . "\n\n";
+		$tresc .= "  Fantazje 3: " . $_POST['zamowienie']['fz3'] . "\n";
+		$tresc .= "  Fantazje 4: " . $_POST['zamowienie']['fz4'] . "\n\n";
 		
 		$tresc .= "Uwagi: " . "\n";
 		$tresc .= '  ' . $_POST['zamowienie']['uwagi'] . "\n\n";
 
 		$headers['Content-type'] = "text/plain; charset=utf-8";
-		$recipients = array("misiotek@go2.pl", "kelior@interia.pl", "zpap-igor@o2.pl"); 
+		$recipients = array("kelior@interia.pl"); 
 
 		$headers["From"]    = "BachBot <bachanalia@bachanalia.zgora.pl>"; 
 		
@@ -51,7 +58,8 @@ require_once ( 'include/zamowienie.class.php' );
 		    'email'         => $_POST['zamowienie']['email'],
 	        'tom2'          => $_POST['zamowienie']['fz2'],
 	        'tom3'          => $_POST['zamowienie']['fz3'],
-	        'kwota'         => ($_POST['zamowienie']['fz2'] + $_POST['zamowienie']['fz3']) * 12 + 10,
+			'tom4'			=> $_POST['zamowienie']['fz4'],
+	        'kwota'         => ($_POST['zamowienie']['fz2'] + $_POST['zamowienie']['fz3'] + $_POST['zamowienie']['fz4']) * 12 + 10,
 	        'uwagi'         => $_POST['zamowienie']['uwagi'],        
 		);
 		

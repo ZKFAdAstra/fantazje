@@ -1,6 +1,6 @@
 <?php 
     session_start();
-    $gdzie = isset($_GET['gdzie']) ? $_GET['gdzie'] : 'kupno'; 
+    $gdzie = isset($_GET['gdzie']) ? $_GET['gdzie'] : 'regulamin'; 
     include_once('include/functions.php');
     $msg = unSetVar('msg');
 ?>
@@ -8,7 +8,7 @@
 
 <head>
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-	<link rel="StyleSheet" href="style.css?ver=1.2" type="text/css" />
+	<link rel="StyleSheet" href="style.css?ver=1.5" type="text/css" />
 	<link rel="StyleSheet" href="js/colorbox.css" type="text/css" />
 	<title>Fantazje Zielonogórskie</title>
 	<script type="text/javascript" src="js/jquery-1.7.2.min.js" ></script>
@@ -57,6 +57,10 @@
             <?php endif; ?>
 			<div id="column_left">
 			    <div id="textcontainer">
+					<?php /*<div id="info">
+						<strong>Szanowni piszący</strong> Wobec licznych próśb od zainteresowanych <strong>przedłużamy termin</strong> nadsyłania prac na konkurs o dwa tygodnie. 
+						Macie zatem czas do <strong>14 czerwca</strong>.
+					</div>*/ ?>
     				<?php 
     				    switch ($gdzie) { 
     				        case 'wstep': include 'wstep.php';

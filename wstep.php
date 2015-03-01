@@ -25,10 +25,10 @@
     Maciej Dobrowolski wspaniale sekretarzował konkursowi. Wszystkim należą się 
     ogromne podziękowania, bo czyż trzeba dodawać, że nikt nie pracował tu za choćby 
     złotówkę? Osobne podziękowania składam osobom, które zgodziły się zasiąść 
-    w jury i swoim autorytetem uwiarygodnić nasz konkurs: bez Krzysztofa Koziołka, 
+    w jury i&nbsp;swoim autorytetem uwiarygodnić nasz konkurs: bez Krzysztofa Koziołka, 
     znanego pisarza regionalisty; prof. dr. hab. Bogdana Trochy  z Uniwersytetu 
     Zielonogórskiego; wspierającego lokalne inicjatywy redaktora Eugeniusza Kurzawy 
-    z „Gazety Lubuskiej” oraz Kazika Kielarskiego, naszego wieloletniego prezesa 
+    z&nbsp;„Gazety Lubuskiej” oraz Kazika Kielarskiego, naszego wieloletniego prezesa 
     rzecz na pewno by się nie udała.
 </p>
 <p>    
@@ -43,8 +43,8 @@
     brak go nam na co dzień. Jerzy, Tobie dedykujemy nasze dzieło...
 </p>
 <p>    
-    Państwa zapraszam do pisania kolejnych opowiadań do III edycji „Fantazji”. 
-    Na tej stronie znajdziecie wszelkie informacje o konkursie. W tym roku nasz 
+    Państwa zapraszam do pisania kolejnych opowiadań do IV edycji „Fantazji”. 
+    Na tej stronie znajdziecie wszelkie informacje o&nbsp;konkursie. W tym roku nasz 
     konkurs został objęty wsparciem finansowym władz miasta, za co dziękujemy. 
     Wierzę, że robimy coś wspólnie z pożytkiem dla tego naszego miejsca na Ziemi. 
     Zaś Czytelników zachęcam do czytania pierwszych dwóch tomów. Oto Zielona Góra, 

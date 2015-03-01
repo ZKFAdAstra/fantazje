@@ -104,7 +104,7 @@ DIV#textcontainer {
 
 .menu {
 	float: left;
-	width: 130px;
+	width: 110px;
 	border-right: 1px solid white;
 }
 
@@ -187,4 +187,11 @@ h3.tom {
 
 #cookies_txt a:hover {
     color: #ff4444;
+}
+
+#info {
+	border-top: 1px solid #cccccc;
+	border-bottom: 1px solid #cccccc;
+	padding: 35px;
+	margin: 15px 0px;
 }
