@@ -88,8 +88,8 @@
     <a href="galeria/2015/13.jpg" class="gal5" title="Narodziny"><img src="galeria/2015/thumb/13.jpg" alt="Narodziny" /></a>
     <a href="galeria/2015/14.jpg" class="gal5" title="Nihil sole sum causa"><img src="galeria/2015/thumb/14.jpg" alt="Nihil sole sum causa" /></a>
     <a href="galeria/2015/15.jpg" class="gal5" title="Saudade Pana"><img src="galeria/2015/thumb/15.jpg" alt="Saudade Pana" /></a>
-    <a href="galeria/2015/16.jpg" class="gal5" title="Sroki z Wieży Głodowej"><img src="galeria/2015/thumb/15.jpg" alt="Sroki z Wieży Głodowej" /></a>
-    <a href="galeria/2015/17.jpg" class="gal5" title="Zbieracz pijanych Hansów"><img src="galeria/2015/thumb/15.jpg" alt="Zbieracz pijanych Hansów" /></a>
+    <a href="galeria/2015/16.jpg" class="gal5" title="Sroki z Wieży Głodowej"><img src="galeria/2015/thumb/16.jpg" alt="Sroki z Wieży Głodowej" /></a>
+    <a href="galeria/2015/17.jpg" class="gal5" title="Zbieracz pijanych Hansów"><img src="galeria/2015/thumb/17.jpg" alt="Zbieracz pijanych Hansów" /></a>
 
 </div>
 
