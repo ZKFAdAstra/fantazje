@@ -71,11 +71,34 @@
 
     </div>
 
+<h2 style="margin-top: 65px; clear: left;">Fantazje Zielonogórskie V</h2>
+<div class="galeria">
+    <a href="galeria/2015/1.jpg" class="gal5" title="okładka"><img src="galeria/2015/thumb/1.jpg" alt="Okładka" /></a>
+    <a href="galeria/2015/2.jpg" class="gal5" title="Afrika"><img src="galeria/2015/thumb/2.jpg" alt="Afrika" /></a>
+    <a href="galeria/2015/3.jpg" class="gal5" title="Bóg który przychodzi"><img src="galeria/2015/thumb/3.jpg" alt="Bóg który przychodzi" /></a>
+    <a href="galeria/2015/4.jpg" class="gal5" title="Bruk"><img src="galeria/2015/thumb/4.jpg" alt="Bruk" /></a>
+    <a href="galeria/2015/5.jpg" class="gal5" title="Było jutro"><img src="galeria/2015/thumb/5.jpg" alt="Było jutro" /></a>
+    <a href="galeria/2015/6.jpg" class="gal5" title="Conjunctio"><img src="galeria/2015/thumb/6.jpg" alt="Conjunctio" /></a>
+    <a href="galeria/2015/7.jpg" class="gal5" title="Czego należało dowieźć"><img src="galeria/2015/thumb/7.jpg" alt="Czego należało dowieźć" /></a>
+    <a href="galeria/2015/8.jpg" class="gal5" title="Dom"><img src="galeria/2015/thumb/8.jpg" alt="Dom" /></a>
+    <a href="galeria/2015/9.jpg" class="gal5" title="Familiariusz"><img src="galeria/2015/thumb/9.jpg" alt="Familiariusz" /></a>
+    <a href="galeria/2015/10.jpg" class="gal5" title="Grünberg.One"><img src="galeria/2015/thumb/10.jpg" alt="Grünberg.One" /></a>
+    <a href="galeria/2015/11.jpg" class="gal5" title="Król szczupak"><img src="galeria/2015/thumb/11.jpg" alt="Król szczupak" /></a>
+    <a href="galeria/2015/12.jpg" class="gal5" title="Miasto srok"><img src="galeria/2015/thumb/12.jpg" alt="Miasto srok" /></a>
+    <a href="galeria/2015/13.jpg" class="gal5" title="Narodziny"><img src="galeria/2015/thumb/13.jpg" alt="Narodziny" /></a>
+    <a href="galeria/2015/14.jpg" class="gal5" title="Nihil sole sum causa"><img src="galeria/2015/thumb/14.jpg" alt="Nihil sole sum causa" /></a>
+    <a href="galeria/2015/15.jpg" class="gal5" title="Saudade Pana"><img src="galeria/2015/thumb/15.jpg" alt="Saudade Pana" /></a>
+    <a href="galeria/2015/16.jpg" class="gal5" title="Sroki z Wieży Głodowej"><img src="galeria/2015/thumb/15.jpg" alt="Sroki z Wieży Głodowej" /></a>
+    <a href="galeria/2015/17.jpg" class="gal5" title="Zbieracz pijanych Hansów"><img src="galeria/2015/thumb/15.jpg" alt="Zbieracz pijanych Hansów" /></a>
+
+</div>
+
 <script>
     $(document).ready(function() {
         $('a.gal1').colorbox({rel: 'gal'});
         $('a.gal2').colorbox({rel: 'gal2'});
 		$('a.gal3').colorbox({rel: 'gal3'});
 		$('a.gal4').colorbox({rel: 'gal4'});
+        $('a.gal5').colorbox({rel: 'gal5'});
     });
 </script>

@@ -177,7 +177,7 @@
 	<li>Zbigniew Kulczycki „Dziewczyna ze skrzyżowania”</li>
 </ul>
 <p>
-    Nagrodę Grand Prix zdobyło opowiadanie Dagmary Adwentowskiej „Dzień kobiet”, opowiadania „Dzień kobiet” Anny Konstanty i „Rechot” Aleksandra Daukszewicza uhonorowane zostały Nagrodami Kapituły. <?php //<a href="pliki/Michal-Organisciak-Czarna.pdf" target="_new">(przeczytaj opowiadanie)</a>. ?>
+    Nagrodę Grand Prix zdobyło opowiadanie Dagmary Adwentowskiej „Trójnog Diabła”, opowiadania „Dzień kobiet” Anny Konstanty i „Rechot” Aleksandra Daukszewicza uhonorowane zostały Nagrodami Kapituły. <?php //<a href="pliki/Michal-Organisciak-Czarna.pdf" target="_new">(przeczytaj opowiadanie)</a>. ?>
 </p>
 <p>
     Książkę wydano przy współpracy Fabryki Reklamy IBI i Galerii Twórców Galera.
@@ -185,3 +185,49 @@
 <p>
     Zrealizowano przy pomocy finansowej Miasta Zielona Góra
 </p>
+
+
+<img style="margin-bottom: 185px; width: 200px;" class="okladka" src="img/antologia_5.jpg" title="tom 5" alt="tom 5, okładka" />
+<h3 class="tom">Tom 5</h3>
+<p>
+    W roku 2015 odbyła się piąta edycja konkursu, której efektem był kolejny tom antologii. W jury zasiedli: Igor Myszkiewicz,
+    Waldemar Gruszczyński, Maciej Dobrowolski i Zbigniew Kulczycki.
+    Redakcji tomu dokonał Maciej Dobrowolski, korekty Arlena A. Łobodzińska, składu Mamert Janion, a ilustracje wykonał Igor Myszkiewicz.
+</p>
+<p>
+    Zawartość tomu:
+</p>
+<ul>
+    <li>Monika Kasprowiak „Król Szczupak”</li>
+    <li>Marta Krajewska „Czego należało dowieść”</li>
+    <li>Marek Starosta „Bóg, który przychodzi”</li>
+    <li>Dorota Dziedzic-Chojnacka „Nihil fit sine causa”</li>
+    <li>Marek Palutkiewicz „Familariusz”</li>
+    <li>Filip Koziński „Saudade Pana”</li>
+    <li>Krzysztof Gniady „Zbieracz pijanych Hansów”</li>
+    <li>Dominika Hejduk „Miasto Srok”</li>
+    <li>Marta Magdalena Lasik „Było jutro”</li>
+    <li>Marek Zychla „Af Rika”</li>
+    <li>Alicja Tempłowicz „Sroki z Wieży Głodowej”</li>
+    <li>Adam Froń „Grünberg.One”</li>
+</ul>
+<p>
+    Poza konkursem:
+</p>
+<ul>
+    <li>Igor Myszkiewicz „Bruk”</li>
+    <li>Zbigniew Kulczycki „Dom”</li>
+    <li>Bartosz Gorczyca „Conjunctio”</li>
+    <li>Maciej Dobrowolski „Narodziny”</li>
+</ul>
+<p>
+    Nagrodę Grand Prix zdobyło opowiadanie Marka Starosty „Bóg, który przychodzi”, opowiadania Moniki Kasprowiak
+    „Król Szczupak” i „Grünberg.One” Adama Fronia uhonorowane zostały Nagrodami Kapituły.
+</p>
+<p>
+    Książkę wydano przy współpracy Fabryki Reklamy SANDMEDIA i Galerii Twórców Galera.
+</p>
+<p>
+    Zrealizowano przy pomocy finansowej Miasta Zielona Góra
+</p>
+
