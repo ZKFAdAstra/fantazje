@@ -4,9 +4,12 @@
 	</a>
 	<br/><span style="font-size: 9px">Zrealizowano przy pomocy finansowej <br/>Miasta Zielona Góra</span>
 </div>
+<div class="logo" style="margin-top: 10px">
+	<img src="img/nd2015.png" alt="Nasze Dobre Lubuskie 2015" title="Nasze Dobre Lubuskie 2015" />
+</div>
 <div class="logo">
     <h2><span style="font-size: 13px">Patronat medialny</span></h2>
-    <a href="http://dobrehistorie.pl/" target="_new">
-	    <img src="img/dhlogo.gif" alt="Wydawnictwo Dobre Historie" title="Wydawnictwo Dobre Historie" />
+	<a href="http://literka.info/" target="_new">
+		<img src="img/literka-logo-transparent-cz.jpg" alt="Literka.info" title="Portal forum literackiego. Od piszących dla piszących" width="140px" />
 	</a>
 </div>
