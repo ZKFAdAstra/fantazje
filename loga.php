@@ -28,7 +28,9 @@
 	<br/><span style="font-size: 9px"> Zadanie współfinansowane przez <br/>Zarząd Województwa Lubuskiego</span>
 </div>
 <div class="logo">
-	<img src="img/nd2015.png" alt="Nasze Dobre Lubuskie 2015" title="Nasze Dobre Lubuskie 2015" />
+	<a href="http://www.strefabiznesu.gazetalubuska.pl/artykul/nasze-dobre-lubuskie-2015-nagrodzilismy-firmy-za-najlepsze-produkty-i-uslugi-zdjecia-wideo" target="_new">
+		<img src="img/nd2015.png" alt="Nasze Dobre Lubuskie 2015" title="Nasze Dobre Lubuskie 2015" />
+	</a>
 </div>
 <h2 class="loga">Patronat medialny</h2>
 <div class="logo">
