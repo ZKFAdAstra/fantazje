@@ -19,7 +19,7 @@
     <li>Organizatorem Konkursu jest Zielonogórski Klub Fantastyki Ad Astra, którego siedziba mieści się przy ul. Fabrycznej 13 B w Zielonej Górze.</li>
     <li>Sekretarzem Konkursu jest Maciej Dobrowolski.</li>
     <li>
-        Konkurs zostanie przeprowadzony w dniach od 1 marca 2016 roku do 1 czerwca 2016 roku.
+        Konkurs zostanie przeprowadzony w dniach od 2 marca 2016 roku do 1 czerwca 2016 roku.
         Lista Laureatów Konkursu zostanie ogłoszona do końca lipca 2016 roku.
     </li>
     <li>Przesłanie zgłoszenia na Konkurs jest jednoznaczne z akceptacją niniejszego Regulaminu.</li>
@@ -48,7 +48,7 @@
         być wcześniej publikowana i nagradzana - dotyczy to także publikacji internetowych.
     </li>
     <li>
-        Gotowe opowiadanie należy nadesłać na adres: fantazjekonkurs@gmail.com w formacie tekstowym (doc, rtf, odt),
+        Gotowe opowiadanie należy nadesłać na adres: fantazjekonkurs@gmail.com w formacie tekstowym (doc, rtf, odt, pdf),
         w tytule maila wpisując „Konkurs literacki Fantazje Zielonogórskie”. Objętość pracy to maksimum 35 tys. znaków (bez spacji).
     </li>
 </ol>
@@ -66,11 +66,31 @@
     </li>
     <li>Każdy z uczestników Konkursu może nadesłać wyłącznie jedną pracę.</li>
     <li>Oceny nadesłanych prac dokona jury powołane przez Organizatora.</li>
-    <li>Najlepsze prace, po wyborze dokonanym przez jury Konkursu, ukażą się w postaci publikacji książkowej (jako zbiór opowiadań).</li>
+    <li>Wyróżnione prace, po wyborze dokonanym przez jury Konkursu, ukażą się w postaci publikacji książkowej (jako zbiór opowiadań).</li>
     <li>Decyzje Jury Konkursu są ostateczne.</li>
     <li>
         Lista laureatów, których prace zostaną umieszczone w publikacji zostanie ogłoszona na stronie fantazje.adastra.zgora.pl
         do końca lipca 2016 roku.
+    </li>
+    <li>
+    	Z chwilą ogłoszenia zwycięzców konkursu przez Organizatora, Organizator nabywa licencję niewyłączną upoważniającą 
+    	Organizatora do nieodpłatnego korzystania z majątkowych praw autorskich do wyróżnionych prac konkursowych na 
+    	następujących polach eksploatacji:
+    	<ul>
+    	    <li>
+    		umieszczenia w antologii zwycięskich tekstów;	
+    	    </li>
+    	    <li>
+    	    	przedruku fragmentów lub całości w wydawnictwach klubowych, stronach WWW i mediach społecznościowych 
+    	    	na profilach Organizatora;
+    	    </li>
+    	    <li>
+    	    	na potrzeby promocji konkursu i antologii w prasie, radiu, telewizji, internecie oraz na nośnikach outdoorowych;
+    	    </li>
+    	    <li>
+    	    	do produkcji słuchowisk radiowych oraz komiksów;
+    	    </li>
+    	</ul>
     </li>
 </ol>
 <h3>IV. Nagrody</h3>
@@ -88,7 +108,7 @@
 <p></p>
 <h3>V. Terminy</h3>
 <ul>
-    <li>1 marca 2016 – ogłoszenie Konkursu w mediach tradycyjnych i elektronicznych</li>
+    <li>2 marca 2016 – ogłoszenie Konkursu w mediach tradycyjnych i elektronicznych</li>
     <li>do 1 czerwca 2016 - przyjmowanie prac</li>
     <li>w dniach 20 czerwca - 15 lipca 2016 - posiedzenie jury i wyłonienie najlepszych prac</li>
     <li>do końca lipca 2016 - ogłoszenie wyników obrad jury</li>
