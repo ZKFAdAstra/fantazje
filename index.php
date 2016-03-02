@@ -8,7 +8,7 @@
 
 <head>
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-	<link rel="StyleSheet" href="style.css?ver=1.5" type="text/css" />
+	<link rel="StyleSheet" href="style.css?ver=1.6" type="text/css" />
 	<link rel="StyleSheet" href="js/colorbox.css" type="text/css" />
 	<title>Fantazje Zielonogórskie</title>
 	<script type="text/javascript" src="js/jquery-1.7.2.min.js" ></script>
