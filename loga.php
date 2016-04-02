@@ -1,3 +1,11 @@
+<div class="fb-page" data-href="https://www.facebook.com/fantazjezg" width="200" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="false">
+	<div class="fb-xfbml-parse-ignore">
+		<blockquote cite="https://www.facebook.com/fantazjezg">
+			<a href="https://www.facebook.com/fantazjezg">Fantazje Zielonogórskie</a>
+		</blockquote>
+	</div>
+</div>
+
 <h2 class="loga">Organizator</h2>
 <div class="logo">
 	<a href="http://www.adastra.zgora.pl/" target="_new">
