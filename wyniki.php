@@ -1,13 +1,14 @@
 <p>
+    <img style="float: left; margin-right: 1em; margin-top: 0.5em;" src="img/fantazje_wyniki.jpg" alt="wyniki" />
 	A więc stało się! Po gorących obradach jury Fantazji Zielonogórskich wybrało zwycięzcę oraz wyróżnionych w
 	tegorocznej odsłonie konkursu. W 2016 roku na pierwszym miejscu podium stanął <strong>Filip Kopij</strong> wraz ze
     swoim opowiadaniem <em>„Śmierć Michaiła Andriejewicza”</em>. Jest to barwna historia lejtnanta Armii Czerwonej,
-    który podczas II wojny światowej spotkał w okupowanym Grünbergu niezwykle tajemniczą kobietę. Tekst czyta się z
+    który podczas II&nbsp;wojny światowej spotkał w okupowanym Grünbergu niezwykle tajemniczą kobietę. Tekst czyta się z
     zapartym tchem do samego końca poznając losy młodego żołnierza a zarazem malarza. Autorowi serdecznie gratulujemy wygranej!
 </p>
 <p>
 	Jednocześnie kapituła wyróżniła dwa inne opowiadania, które również pretendowały do miana zwycięzcy.
-    Drugie miejsce w konkursie zajęło opowiadanie <em>„Rok 1388”</em> autorstwa <strong>Wojciecha Kowalskiego</strong>
+    Drugie miejsce w&nbsp;konkursie zajęło opowiadanie <em>„Rok 1388”</em> autorstwa <strong>Wojciecha Kowalskiego</strong>
     natomiast na trzecim znalazło się <em>„Dwadzieścia trzy sążnie predestynacji”</em>, które napisała <strong>Alicja Tempłowicz</strong>. Brawo!
 </p>
 <p>
