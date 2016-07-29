@@ -1,6 +1,6 @@
 <?php 
     session_start();
-    $gdzie = isset($_GET['gdzie']) ? $_GET['gdzie'] : 'wstep';
+    $gdzie = isset($_GET['gdzie']) ? $_GET['gdzie'] : 'wyniki';
     include_once('include/functions.php');
     $msg = unSetVar('msg');
 ?>
