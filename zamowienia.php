@@ -29,7 +29,7 @@
     		    $('#fAdres').value == '' ||
     		    $('#fKod').value == '' ||
     		    $('#fMiasto').value == '' ||
-    		    ($('#fFZ2').val() == '' && $('#fFZ3').val() == '' && $('#fFZ4').val() == '')) {
+    		    ($('#fFZ2').val() == '' && $('#fFZ3').val() == '' && $('#fFZ4').val() == '' && $('#fFZ5').val() == '' && $('#fFZ6').val() == '')) {
     			alert('Nie wypełniono wszystkich pól wymaganych.');
     			return false;
     		} else {
@@ -56,12 +56,14 @@
         		document.cookie = 'cookies_accepted=true;expires=Thu, 31 Dec 2099 12:34:23 GMT';
         	});
 
-        	$('#fFZ2, #fFZ3, #fFZ4').change(function() {
+        	$('#fFZ2, #fFZ3, #fFZ4, #fFZ5, #fFZ6').change(function() {
         	    ile2 = Number($('#fFZ2').val());
         	    ile3 = Number($('#fFZ3').val());  
 				ile4 = Number($('#fFZ4').val());
+				ile5 = Number($('#fFZ5').val());
+				ile6 = Number($('#fFZ6').val());
 
-        	    suma_ilosci = ile2 + ile3 + ile4;
+        	    suma_ilosci = ile2 + ile3 + ile4 + ile5 + ile6;
 
         	    wysylka = 0;
         	    if (suma_ilosci == 1) {
@@ -75,12 +77,16 @@
         	    $('#ile2').text(ile2);
         	    $('#ile3').text(ile3);
 				$('#ile4').text(ile4);
+				$('#ile5').text(ile5);
+				$('#ile6').text(ile6);
         	    $('#wart2').text(12 * ile2);
         	    $('#wart3').text(12 * ile3);
 				$('#wart4').text(12 * ile4);
+				$('#wart5').text(15 * ile5);
+				$('#wart6').text(15 * ile6);
         	    $('#wysylka').text(wysylka);
 
-        	    suma = 12 * ile2 + 12 * ile3 + 12 * ile4 + wysylka;
+        	    suma = 12 * ile2 + 12 * ile3 + 12 * ile4 + 15 * ile5 + 15 * ile6 +  wysylka;
 
         	    $('#suma').text(suma);
 
@@ -160,7 +166,7 @@
 			    <div id="textcontainer">
                 <p>
     			    Poniższy formularz umożliwia zamówienie antologii opowiadań 
-    			    "Fantazje Zielonogórskie", tom 2 i 3. Prosimy o wypełnienie poniższych
+    			    "Fantazje Zielonogórskie", tomy 2, 4, 5 i 6. Prosimy o wypełnienie poniższych
     			    pól a następnie przesłanie wyświetlonej na dole strony kwoty na konto:
     			    <br/><br/>
     			    ZKF Ad Astra<br/>
@@ -206,6 +212,38 @@
 				        (opcjonalnie)
 					</div>
 					<div class="next cf">
+						<label for="fFZ6">Zamawiana liczba tomu 6</label>
+						<select id="fFZ6" name="zamowienie[fz6]">
+							<option value="0" <?php echo !isset($zamowienie['fz6']) ? 'selected="selected"' : ''; ?> >0</option>
+							<option value="1" <?php echo isset($zamowienie['fz6']) && 1 == $zamowienie['fz6'] ? 'selected="selected"' : ''; ?> >1</option>
+							<option value="2" <?php echo isset($zamowienie['fz6']) && 2 == $zamowienie['fz6'] ? 'selected="selected"' : ''; ?> >2</option>
+							<option value="3" <?php echo isset($zamowienie['fz6']) && 3 == $zamowienie['fz6'] ? 'selected="selected"' : ''; ?> >3</option>
+							<option value="4" <?php echo isset($zamowienie['fz6']) && 4 == $zamowienie['fz6'] ? 'selected="selected"' : ''; ?> >4</option>
+							<option value="5" <?php echo isset($zamowienie['fz6']) && 5 == $zamowienie['fz6'] ? 'selected="selected"' : ''; ?> >5</option>
+							<option value="6" <?php echo isset($zamowienie['fz6']) && 6 == $zamowienie['fz6'] ? 'selected="selected"' : ''; ?> >6</option>
+							<option value="7" <?php echo isset($zamowienie['fz6']) && 7 == $zamowienie['fz6'] ? 'selected="selected"' : ''; ?> >7</option>
+							<option value="8" <?php echo isset($zamowienie['fz6']) && 8 == $zamowienie['fz6'] ? 'selected="selected"' : ''; ?> >8</option>
+							<option value="9" <?php echo isset($zamowienie['fz6']) && 9 == $zamowienie['fz6'] ? 'selected="selected"' : ''; ?> >9</option>
+							<option value="10" <?php echo isset($zamowienie['fz6']) && 10 == $zamowienie['fz6'] ? 'selected="selected"' : ''; ?> >10</option>
+						</select>
+					</div>
+					<div class="next cf">
+						<label for="fFZ5">Zamawiana liczba tomu 5</label>
+						<select id="fFZ5" name="zamowienie[fz5]">
+						    <option value="0" <?php echo !isset($zamowienie['fz5']) ? 'selected="selected"' : ''; ?> >0</option>
+						    <option value="1" <?php echo isset($zamowienie['fz5']) && 1 == $zamowienie['fz5'] ? 'selected="selected"' : ''; ?> >1</option>
+						    <option value="2" <?php echo isset($zamowienie['fz5']) && 2 == $zamowienie['fz5'] ? 'selected="selected"' : ''; ?> >2</option>
+						    <option value="3" <?php echo isset($zamowienie['fz5']) && 3 == $zamowienie['fz5'] ? 'selected="selected"' : ''; ?> >3</option>
+						    <option value="4" <?php echo isset($zamowienie['fz5']) && 4 == $zamowienie['fz5'] ? 'selected="selected"' : ''; ?> >4</option>
+						    <option value="5" <?php echo isset($zamowienie['fz5']) && 5 == $zamowienie['fz5'] ? 'selected="selected"' : ''; ?> >5</option>
+						    <option value="6" <?php echo isset($zamowienie['fz5']) && 6 == $zamowienie['fz5'] ? 'selected="selected"' : ''; ?> >6</option>
+						    <option value="7" <?php echo isset($zamowienie['fz5']) && 7 == $zamowienie['fz5'] ? 'selected="selected"' : ''; ?> >7</option>
+						    <option value="8" <?php echo isset($zamowienie['fz5']) && 8 == $zamowienie['fz5'] ? 'selected="selected"' : ''; ?> >8</option>
+						    <option value="9" <?php echo isset($zamowienie['fz5']) && 9 == $zamowienie['fz5'] ? 'selected="selected"' : ''; ?> >9</option>
+						    <option value="10" <?php echo isset($zamowienie['fz5']) && 10 == $zamowienie['fz5'] ? 'selected="selected"' : ''; ?> >10</option>
+						</select>
+					</div>
+					<div class="next cf">
 						<label for="fFZ4">Zamawiana liczba tomu 4</label>
 						<select id="fFZ4" name="zamowienie[fz4]">
 						    <option value="0" <?php echo !isset($zamowienie['fz4']) ? 'selected="selected"' : ''; ?> >0</option>
@@ -223,7 +261,8 @@
 					</div>
 					<div class="next cf">
 						<label for="fFZ3">Zamawiana liczba tomu 3</label>
-						<select id="fFZ3" name="zamowienie[fz3]">
+						<em>wyprzedany</em>
+						<?php /* <select id="fFZ3" name="zamowienie[fz3]">
 						    <option value="0" <?php echo !isset($zamowienie['fz3']) ? 'selected="selected"' : ''; ?> >0</option>
 						    <option value="1" <?php echo isset($zamowienie['fz3']) && 1 == $zamowienie['fz3'] ? 'selected="selected"' : ''; ?> >1</option>
 						    <option value="2" <?php echo isset($zamowienie['fz3']) && 2 == $zamowienie['fz3'] ? 'selected="selected"' : ''; ?> >2</option>
@@ -235,7 +274,8 @@
 						    <option value="8" <?php echo isset($zamowienie['fz3']) && 8 == $zamowienie['fz3'] ? 'selected="selected"' : ''; ?> >8</option>
 						    <option value="9" <?php echo isset($zamowienie['fz3']) && 9 == $zamowienie['fz3'] ? 'selected="selected"' : ''; ?> >9</option>
 						    <option value="10" <?php echo isset($zamowienie['fz3']) && 10 == $zamowienie['fz3'] ? 'selected="selected"' : ''; ?> >10</option>
-						</select>
+						</select> */ ?>
+						<input type="hidden" name="zamowienie[fz3]" id="fFZ3" value="0" />
 					</div>
 					<div class="next cf">
 						<label for="fFZ2">Zamawiana liczba tomu 2</label>
@@ -277,6 +317,8 @@
 				        <th>Tom 2</th>
 				        <th>Tom 3</th>
 						<th>Tom 4</th>
+						<th>Tom 5</th>
+						<th>Tom 6</th>
 				        <th>Przesyłka</th>
 				    </tr>
 				    <tr>
@@ -284,6 +326,8 @@
 				        <td id="ile2">0</td>
 				        <td id="ile3">0</td>
 						<td id="ile4">0</td>
+						<td id="ile5">0</td>
+						<td id="ile6">0</td>
 				        <td>-</td>
 				    </tr>
 				    <tr>
@@ -291,6 +335,8 @@
 				        <td>12 zł</td>
 				        <td>12 zł</td>
 						<td>12 zł</td>
+						<td>15 zł</td>
+						<td>15 zł</td>
 				        <td>-</td>
 				    </tr>
 				    <tr>
@@ -298,6 +344,8 @@
 				        <td><span id="wart2">0</span> zł</td>
 				        <td><span id="wart3">0</span> zł</td>
 						<td><span id="wart4">0</span> zł</td>
+						<td><span id="wart5">0</span> zł</td>
+						<td><span id="wart6">0</span> zł</td>
 				        <td><span id="wysylka">0</span> zł</td>
 				    </tr>
 				</table>

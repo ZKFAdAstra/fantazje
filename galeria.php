@@ -93,6 +93,27 @@
 
 </div>
 
+<h2 style="margin-top: 65px; clear: left;">Fantazje Zielonogórskie VI</h2>
+<div class="galeria">
+    <a href="galeria/2016/1.jpg" class="gal6" title="okładka"><img src="galeria/2016/thumb/1.jpg" alt="Okładka" /></a>
+    <a href="galeria/2016/2.jpg" class="gal6" title="23 sążnie predystynacji"><img src="galeria/2016/thumb/2.jpg" alt="23 sążnie predystynacji" /></a>
+    <a href="galeria/2016/3.jpg" class="gal6" title="Archanioł"><img src="galeria/2016/thumb/3.jpg" alt="Archanioł" /></a>
+    <a href="galeria/2016/4.jpg" class="gal6" title="Asenterunek"><img src="galeria/2016/thumb/4.jpg" alt="Asenterunek" /></a>
+    <a href="galeria/2016/5.jpg" class="gal6" title="Highway to Hell"><img src="galeria/2016/thumb/5.jpg" alt="Highway to Hell" /></a>
+    <a href="galeria/2016/6.jpg" class="gal6" title="Kwaśny smak mirabelek"><img src="galeria/2016/thumb/6.jpg" alt="Kwaśny smak mirabelek" /></a>
+    <a href="galeria/2016/7.jpg" class="gal6" title="Mleko"><img src="galeria/2016/thumb/7.jpg" alt="Mleko" /></a>
+    <a href="galeria/2016/8.jpg" class="gal6" title="Moon"><img src="galeria/2016/thumb/8.jpg" alt="Moon" /></a>
+    <a href="galeria/2016/9.jpg" class="gal6" title="Nocny"><img src="galeria/2016/thumb/9.jpg" alt="Nocny" /></a>
+    <a href="galeria/2016/10.jpg" class="gal6" title="O lisku który znalazł kwiat paproci"><img src="galeria/2016/thumb/10.jpg" alt="O lisku który znalazł kwiat paproci" /></a>
+    <a href="galeria/2016/11.jpg" class="gal6" title="Rok 1388"><img src="galeria/2016/thumb/11.jpg" alt="Rok 1388" /></a>
+    <a href="galeria/2016/12.jpg" class="gal6" title="Śmierć Michaila Andriejewicza"><img src="galeria/2016/thumb/12.jpg" alt="Śmierć Michaila Andriejewicza" /></a>
+    <a href="galeria/2016/13.jpg" class="gal6" title="Spisek księżycowy"><img src="galeria/2016/thumb/13.jpg" alt="Spisek księżycowy" /></a>
+    <a href="galeria/2016/14.jpg" class="gal6" title="Wińsko"><img src="galeria/2016/thumb/14.jpg" alt="Wińsko" /></a>
+    <a href="galeria/2016/15.jpg" class="gal6" title="Wirtualne"><img src="galeria/2016/thumb/15.jpg" alt="Wirtualne" /></a>
+    <a href="galeria/2016/16.jpg" class="gal6" title="Wolna"><img src="galeria/2016/thumb/16.jpg" alt="Wolna" /></a>
+    <a href="galeria/2016/17.jpg" class="gal6" title="Zielonogórski notgeld"><img src="galeria/2016/thumb/17.jpg" alt="Zielonogórski notgeld" /></a>
+</div>
+
 <script>
     $(document).ready(function() {
         $('a.gal1').colorbox({rel: 'gal'});
@@ -100,5 +121,6 @@
 		$('a.gal3').colorbox({rel: 'gal3'});
 		$('a.gal4').colorbox({rel: 'gal4'});
         $('a.gal5').colorbox({rel: 'gal5'});
+        $('a.gal6').colorbox({rel: 'gal6'});
     });
 </script>

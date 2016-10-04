@@ -187,6 +187,16 @@ error_reporting(E_ERROR);
 		);
 		
 		$strData .= sprintf(
+		        'Fantazje tom 5: %s egz.<br/>',
+		        $aV['tom5']
+		);
+
+        $strData .= sprintf(
+            'Fantazje tom 6: %s egz.<br/>',
+            $aV['tom6']
+        );
+
+		$strData .= sprintf(
 		        'Do zapłaty: %s zł<br/>',
 		        $aV['kwota']
 		);
