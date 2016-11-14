@@ -30,13 +30,16 @@ require_once ( 'include/zamowienie.class.php' );
 		$tresc .= "  e-mail: " . $_POST['zamowienie']['email'] . "\n";
 		$tresc .= "  Fantazje 2: " . $_POST['zamowienie']['fz2'] . "\n";
 		$tresc .= "  Fantazje 3: " . $_POST['zamowienie']['fz3'] . "\n";
-		$tresc .= "  Fantazje 4: " . $_POST['zamowienie']['fz4'] . "\n\n";
+		$tresc .= "  Fantazje 4: " . $_POST['zamowienie']['fz4'] . "\n";
+		$tresc .= "  Fantazje 5: " . $_POST['zamowienie']['fz5'] . "\n";
+		$tresc .= "  Fantazje 6: " . $_POST['zamowienie']['fz6'] . "\n\n";
+
 		
 		$tresc .= "Uwagi: " . "\n";
 		$tresc .= '  ' . $_POST['zamowienie']['uwagi'] . "\n\n";
 
 		$headers['Content-type'] = "text/plain; charset=utf-8";
-		$recipients = array("kelior@interia.pl"); 
+		$recipients = array("kelior@interia.pl", "antykwariat.irijan@gmail.com");
 
 		$headers["From"]    = "BachBot <bachanalia@bachanalia.zgora.pl>"; 
 		
@@ -59,7 +62,9 @@ require_once ( 'include/zamowienie.class.php' );
 	        'tom2'          => $_POST['zamowienie']['fz2'],
 	        'tom3'          => $_POST['zamowienie']['fz3'],
 			'tom4'			=> $_POST['zamowienie']['fz4'],
-	        'kwota'         => ($_POST['zamowienie']['fz2'] + $_POST['zamowienie']['fz3'] + $_POST['zamowienie']['fz4']) * 12 + 10,
+			'tom5'          => $_POST['zamowienie']['fz5'],
+			'tom6'          => $_POST['zamowienie']['fz6'],
+	        'kwota'         => ($_POST['zamowienie']['fz2'] + $_POST['zamowienie']['fz3'] + $_POST['zamowienie']['fz4']) * 12 + $_POST['zamowienie']['fz5'] * 15 + $_POST['zamowienie']['fz6'] * 15 + 10,
 	        'uwagi'         => $_POST['zamowienie']['uwagi'],        
 		);
 		

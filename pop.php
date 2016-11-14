@@ -232,3 +232,47 @@
     Zrealizowano przy pomocy finansowej Miasta Zielona Góra
 </p>
 
+
+<img style="margin-bottom: 185px; width: 200px;" class="okladka" src="img/antologia_6.jpg" title="tom 6" alt="tom 6, okładka" />
+<h3 class="tom">Tom 6</h3>
+<p>
+    W roku 2016 odbyła się szósta edycja konkursu, której efektem był kolejny tom antologii. W jury zasiedli:
+    Igor Myszkiewicz, Waldemar Gruszczyński, Maciej Dobrowolski i Zbigniew Kulczycki. Redakcji tomu dokonał
+    Maciej Dobrowolski, korekty Arlena A. Łobodzińska, składu Mamert Janion, a ilustracje wykonał Igor Myszkiewicz.
+</p>
+<p>
+    Zawartość tomu:
+</p>
+<ul>
+    <li>Wojciech Kowalski „Rok 1388”</li>
+    <li>Alicja Tempłowicz „Dwadzieścia trzy sążnie predestynacji”</li>
+    <li>Filip Kopij „Śmierć Michaiła Andriejewicza”</li>
+    <li>Dominika Hejduk „Zielonogórski Notgeld”</li>
+    <li>Joanna Pawłusiów „Highway to Hell”</li>
+    <li>Filip Koziński „O Lisku, który znalazł kwiat paproci”</li>
+    <li>Wojciech Wegner „Mleko”</li>
+    <li>Michał Peroń „Archanioł”</li>
+    <li>Krzysztof Filipowicz „Spisek księżycowy”</li>
+    <li>Paulina Rezanowicz „Kwaśny smak mirabelek”</li>
+    <li>Marek Starosta „Asenterunek”</li>
+    <li>Rafał Charłampowicz „Nocny”</li>
+</ul>
+<p>
+    Poza konkursem:
+</p>
+<ul>
+    <li>Bartosz Gorczyca „Wirtualne uderzenie”</li>
+    <li>Igor Myszkiewicz „Wińsko”</li>
+    <li>Maciej Dobrowolski „Wolna”</li>
+</ul>
+<p>
+    Nagrodę Grand Prix zdobyło opowiadanie Filipa Kopija „Śmierć Michaiła Andriejewicza”,
+    opowiadania Wojciecha Kowalskiego „Rok 1388” i „Dwadzieścia trzy sążnie predestynacji”
+    Alicji Tempłowicz uhonorowane zostały Nagrodami Kapituły.
+</p>
+<p>
+    Książkę wydano przy współpracy Fabryki Reklamy SANDMEDIA i Galerii Twórców Galera.
+</p>
+<p>
+    Zrealizowano przy pomocy finansowej Miasta Zielona Góra i Urzędu Marszałkowskiego Województwa Lubuskiego.
+</p>
