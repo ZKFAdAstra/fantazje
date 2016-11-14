@@ -16,9 +16,6 @@
 <div class="menu <?php echo $gdzie == 'media' ? 'bold' : ''?> ">
     <a href="index.php?gdzie=media">Materiały</a>
 </div>
-<div class="menu <?php echo $gdzie == 'kupno' ? 'bold' : ''?> ">
-    <a href="index.php?gdzie=kupno">Gdzie kupić</a>
-</div>
 <div class="menu <?php echo $gdzie == 'zamowienia' ? 'bold' : ''?> " style="border: none">
     <a href="zamowienia.php">Zamówienie</a>
 </div>
