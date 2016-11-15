@@ -47,6 +47,23 @@
     			return true;
     		}
     	}
+
+		function countPostage(tom2, tom3, tom6, sumaIlosci) {
+
+			if (sumaIlosci >= 3) {
+				return 12;
+			}
+
+			if (sumaIlosci > 1) {
+				return 8.5;
+			}
+
+			if (tom2 == 1 || tom3 == 1 || tom6 == 1) {
+				return 7.5;
+			}
+
+			return 8.5;
+		}
 	
         $(document).ready(function() {
      	
@@ -65,14 +82,7 @@
 
         	    suma_ilosci = ile2 + ile3 + ile4 + ile5 + ile6;
 
-        	    wysylka = 0;
-        	    if (suma_ilosci == 1) {
-            	    wysylka = 7;
-        	    } else if (suma_ilosci == 2) {
-            	    wysylka = 10;
-        	    } else {
-            	    wysylka = 10 + (Math.ceil(suma_ilosci / 2)*2 - 2);
-        	    }
+        	    wysylka = countPostage(ile2, ile3, ile6, suma_ilosci);
         	    
         	    $('#ile2').text(ile2);
         	    $('#ile3').text(ile3);
@@ -164,6 +174,33 @@
             <?php endif; ?>
 			<div id="column_left">
 			    <div id="textcontainer">
+					<p style="margin-top: 15px">
+						Egzemplarze Fantazji Zielonogórskich mogą państwo nabyć składając zamówienie poprzez
+						formularz zamówień dostępny poniżej. Cena jednej książki to <strong>15 złotych</strong> (tomy 5 i6)
+						lub <strong>12 złotych</strong> (tomy 2, 3 i 4).
+					</p>
+					<p style="margin-top: 15px">
+						W Zielonej Górze antologię można kupić w następujących miejscach:
+					</p>
+					<ul>
+						<li style="margin-bottom: 15px">
+							Zielone Wzgórza Księgarnia i Centrum Gier
+							<br/>ul. Boh. Westerplatte 16
+							<br/>Zielona Góra
+							<br/><a href="http://www.zielone24.pl" target="_new">www.zielone24.pl</a>
+						</li>
+						<li style="margin-bottom: 15px">
+							Antykwariat Saski
+							<br/>ul. Jedności 48
+							<br/>Zielona Góra
+						</li>
+						<li>
+							Polsko-Niemieckie Centrum Promocji i Informacji Turystycznej
+							<br/>ul. Stary Rynek 1 (Ratusz)
+							<br/>Zielona Góra
+							<br/><a href="http://www.cit.zielona-gora.pl" target="_new">www.cit.zielona-gora.pl</a>
+						</li>
+					</ul>
                 <p>
     			    Poniższy formularz umożliwia zamówienie antologii opowiadań 
     			    "Fantazje Zielonogórskie", tomy 2, 4, 5 i 6. Prosimy o wypełnienie poniższych
@@ -175,9 +212,15 @@
                     <br/><br/>
                     <strong>34 1020 5402 0000 0202 0113 8809</strong>
                     <br/><br/>
-                    podając w tytule przelewu: imię i nazwisko oraz dopisek 
+                    podając w tytule przelewu: imię i nazwisko oraz dopisek
                     "zamówienie fantazji".
                     <br/><br/>
+					<span style="text-decoration: underline; font-weight: bold">
+						UWAGA! Nieprawidłowe wypełnienie poniższego formularza lub wysłanie przelewu bez wypełnienia
+						formularza może utrudnić wykonanie zamówienia. Dla pewności mogą państwo podać w tytule przelewu
+						telefon kontaktowy.
+					</span>
+					<br/><br/>
                     Książki zostaną do Państwa wysłane w ciągu trzech dni od otrzymania
                     przelewu.
 			    </p>

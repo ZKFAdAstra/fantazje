@@ -14,6 +14,35 @@ include_once('include/functions.php');
 require_once('sql/site.config.php');
 require_once ( 'include/zamowienie.class.php' );
 
+function countPostage($orderData) {
+    $tomes = array(
+        2 => $orderData['fz2'],
+        4 => $orderData['fz4'],
+        5 => $orderData['fz5'],
+        6 => $orderData['fz6']
+    );
+
+    $sum = 0;
+
+    foreach($tomes as $tome => $tomeQuantity) {
+        $sum += $tomeQuantity;
+    }
+
+    if ($sum >= 3) {
+        return 12;
+    }
+
+    if ($sum > 1) {
+        return 8.5;
+    }
+
+    if ($tomes[2] == 1 || $tomes[3] == 1 || $tomes[6] == 1) {
+        return 7.5;
+    }
+
+    return 8.5;
+}
+
 	if (!empty($_POST) && 'czwarta' != $_POST['zamowienie']['test']) {
 		setVar(10, 'msg');
 		setVar($_POST['zamowienie'], 'zamowienie');
@@ -64,7 +93,11 @@ require_once ( 'include/zamowienie.class.php' );
 			'tom4'			=> $_POST['zamowienie']['fz4'],
 			'tom5'          => $_POST['zamowienie']['fz5'],
 			'tom6'          => $_POST['zamowienie']['fz6'],
-	        'kwota'         => ($_POST['zamowienie']['fz2'] + $_POST['zamowienie']['fz3'] + $_POST['zamowienie']['fz4']) * 12 + $_POST['zamowienie']['fz5'] * 15 + $_POST['zamowienie']['fz6'] * 15 + 10,
+	        'kwota'         =>
+                ($_POST['zamowienie']['fz2'] + $_POST['zamowienie']['fz3'] + $_POST['zamowienie']['fz4']) * 12
+                + $_POST['zamowienie']['fz5'] * 15
+                + $_POST['zamowienie']['fz6'] * 15
+                + countPostage($_POST['zamowienie']),
 	        'uwagi'         => $_POST['zamowienie']['uwagi'],        
 		);
 		
