@@ -43,6 +43,14 @@ function countPostage($orderData) {
     return 8.5;
 }
 
+function error_message($data, $errorMsg) {
+    return sprintf(
+        "[%s]: Error adding data to database. Data: %sError msg: %s\n",
+        date('d-m-Y H:i:s'),
+        print_r($data, true),
+        $errorMsg
+    );
+}
 	if (!empty($_POST) && 'czwarta' != $_POST['zamowienie']['test']) {
 		setVar(10, 'msg');
 		setVar($_POST['zamowienie'], 'zamowienie');
@@ -72,13 +80,7 @@ function countPostage($orderData) {
 
 		$headers["From"]    = "BachBot <bachanalia@bachanalia.zgora.pl>"; 
 		
-		$headers["Subject"] = $temat; 
-
-		// Create the mail object using the Mail::factory method 
-		$mail_object =& Mail::factory("smtp", $params); 
-		$mail_object->send($recipients, $headers, $tresc); 
-		
-		setVar(2,'msg');
+		$headers["Subject"] = $temat;
 		
 		$arrData = array(
 		    'imie'          => $_POST['zamowienie']['imie'],
@@ -100,9 +102,22 @@ function countPostage($orderData) {
                 + countPostage($_POST['zamowienie']),
 	        'uwagi'         => $_POST['zamowienie']['uwagi'],        
 		);
+
+		$result = $objRegs->addRegs($arrData);
+
+        if (!is_int($result)) {
+            file_put_contents('errors.log', error_message($arrData, $result), FILE_APPEND);
+            setVar(11, 'msg');
+            header("Location: zamowienia.php");
+            exit;
+        }
+
+        // Create the mail object using the Mail::factory method
+        $mail_object =& Mail::factory("smtp", $params);
+        $mail_object->send($recipients, $headers, $tresc);
+
+        setVar(2,'msg');
 		
-		$objRegs->addRegs($arrData);
-		
-header("Location: index.php");
+    header("Location: index.php");
 
 ?>

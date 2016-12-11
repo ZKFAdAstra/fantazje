@@ -172,6 +172,13 @@
 					i spróbować jeszcze raz.
                 </div>
             <?php endif; ?>
+			<?php if (11 == $msg): ?>
+				<div id="message">
+					Wystąpił problem techniczny podczas składania zamówienia. Prosimy spróbować za chwilę jeszcze raz.
+					Jeśli problem nadal będzie występował prosimy o skontaktowanie się z nami bezpośrednio w celu złożenia
+					zamówienia.
+				</div>
+			<?php endif; ?>
 			<div id="column_left">
 			    <div id="textcontainer">
 					<p style="margin-top: 15px">
